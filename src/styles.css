@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+ul {
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+  max-width: 100%;
+  margin: 2rem;
+}
+
+li {
+  margin-right: 1rem;
+  padding: 10px;
+  list-style: none;
+  border: 1px solid salmon;
+}
+
+.nav {
+  width: 100%;
+  margin-left: auto;
+}
+
+button {
+  margin: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+}
